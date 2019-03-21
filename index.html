@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <script src="./assets/javascript/game.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
 </head>
 <body>
     <div class="container">
@@ -30,21 +30,23 @@
             </div>
             <div class="col-8">
                 <div class="row">
-                    <div class="col"><p>Random #:<span id="random-text"></span></p><div>
-                    <div class="col"><p>Wins: <span id="wins-text"></span></p><p> Losses: <span id="losses-text"></span></p></div>
+                    <div class="col"><p>Computer's Random #: <span id="random-text"></span></p><div>
+                    <div class="col"><p>Wins: <span id="wins-text">0</span></p><p> Losses: <span id="losses-text">0</span></p></div>
                 <div class="row">
-                    <div class="col-4 gem"><img id="gemA" src="./assets/images/realitystone.jpg" height="200px" width="200px"></div>
-                    <div class="col-4 gem"><img id="gemB" src="./assets/images/mindstone.jpg" height="200px" width="200px"></div>
+                    <div class="col-4 gem" id="gemA"><img id="gemA" src="./assets/images/realitystone.jpg" height="200px" width="200px"></div>
+                    <div class="col-4 gem" id="gemB"><img id="gemB" src="./assets/images/mindstone.jpg" height="200px" width="200px"></div>
                 </div>
                 <div class="row">
-                    <div class="col-4 gem"><img id="gemC" src="./assets/images/timestone.jpg" height="200px" width="200px"></div>
-                    <div class="col-4 gem"><img id="gemD" src="assets/images/tesseract.png" height="200px" width="200px"></div>
+                    <div class="col-4 gem" id="gemC"><img id="gemC" src="./assets/images/timestone.jpg" height="200px" width="200px"></div>
+                    <div class="col-4 gem" id="gemD"><img id="gemD" src="assets/images/tesseract.png" height="200px" width="200px"></div>
                 </div>
                 <div class="row">
-                    <div class="col"><p>Your Score:<span id="userscore-text"></span></p></div>
+                    <div class="col"><p>Your Score: <span id="userscore-text">0</span></p></div>
                 </div>
             </div>
         </div>
     </div>
+    
+   
 </body>
 </html>
