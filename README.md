@@ -97,6 +97,6 @@ Pseudocoding:
 4. Write JQuery on click functions for each of the 4 gems that add value of Gem(x) to playerScore
     CAN I MAKE THIS 1 FUNCTION??? FOR EACH????
 
-5. IF/THEN statements to evate score
+5. IF/THEN statements to evaluate score
         IF playerScore === computerValue, THEN {alert win, update win counter, call startGame function}
         IF playerscore > computerValue, THEN {alert lose, update lose counter, call startGame function} 
