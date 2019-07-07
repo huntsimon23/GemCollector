@@ -1,5 +1,6 @@
 # Gem Collector Game
 A simple app utilizing JavaScript logic and JQuery to manipulate the DOM.
+
 Deployed Application Link: 
 
 # How the app works:
