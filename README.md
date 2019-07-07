@@ -1,7 +1,7 @@
 # Gem Collector Game
 A simple app utilizing JavaScript logic and JQuery to manipulate the DOM.
 
-Deployed Application Link: 
+Deployed Application Link: https://huntsimon23.github.io/GemCollector/
 
 # How the app works:
 
