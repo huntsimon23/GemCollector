@@ -1,16 +1,8 @@
-# unit-4-game
+# Gem Collector Game
+A simple app utilizing JavaScript logic and JQuery to manipulate the DOM.
+Deployed Application Link: 
 
-<!--
-
-### Option One: CrystalsCollector Game (Recommended)
-
-![Crystal Collector](Images/1-CrystalCollector.jpg)
-
-1. [Watch the demo](https://youtu.be/yNI0l2FMeCk).
-
-2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
-
-3. Here's how the app works:
+# How the app works:
 
    * There will be four crystals displayed as buttons on the page.
 
